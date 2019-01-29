@@ -192,7 +192,9 @@ tableT = ['NULL']*totaltuples # this is for the table T used in the function str
 
 L0 = []
 dictCplus = {'NULL': listofcolumns}
+print dictCplus
 dictpartitions = {} # maps 'stringslikethis' to a list of lists, each of which contains indices
+# Store indices that
 computeSingletonPartitions(listofcolumns)
 finallistofFDs=[]
 #print dictCplus['NULL']
